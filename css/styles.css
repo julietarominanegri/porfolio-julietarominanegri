@@ -1,0 +1,716 @@
+/**********Generales**********/
+*{
+    margin: 0em;
+    padding: 0em;
+}
+
+body, input, textarea{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.875rem;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+hr{
+    height: 0.313em;
+    width: 31.25em;
+    background-color: black;
+    margin: auto;
+    text-align: center;    
+}
+/**********FIN Generales**********/
+
+/**********Header**********/
+#header{
+    height: 5.313em;
+    width: 100%;
+    background-image: url("../images/galaxy.jfif");
+    box-shadow: 0 0 30px 0 black;
+    position: fixed;
+    display: flex;
+}
+
+#nav{
+    width: 100%;
+    padding: 0 3.125em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#nav-list{
+    display: inline;
+    display: flex;
+}
+
+.nav-link{
+    background-color: black;
+    color: white;
+    -webkit-text-stroke: 0.063rem white;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    margin-left: 1.875em;
+    padding: 0.625em;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    letter-spacing: 0.25rem;
+}
+
+.nav-link:focus{
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px white;
+    outline: 0px;
+}
+
+.nav-link-contacto{
+    background-color: white;
+    color:black;
+    -webkit-text-stroke: 0.063rem black;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    border: none;
+    border-radius: 30px;
+    margin-left: 1.875em;
+    padding: 0.625em;
+    cursor: pointer;    
+}
+
+.nav-link-contacto:hover{
+    background-color: white;
+    color: black;
+    letter-spacing: 0.25rem;
+    transition: 0,5s;
+}
+
+.nav-link-contacto:focus{
+    border: none;
+    box-shadow: 0px 0px 10px white;
+    outline: 0px;
+}
+/**********FIN Header**********/
+
+/**********Hola**********/
+#main1{
+    height: 31.25em;
+    width: 100%;
+    background-color: white;
+    padding-top: 6.25em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#section1{
+    line-height: 3.125em;
+}
+
+.hello, .who-i-am{
+    letter-spacing: 0.125rem;
+}
+
+.name{
+    background: url("../images/galaxy.jfif");
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.188rem black;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    font-size: 3.75rem;
+}
+
+.what-i-do{
+    height: 0.625em;
+    width: 100%;
+    max-width: 15.625em;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    -webkit-text-stroke: 0.063rem white;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    border: none;
+    border-radius: 30px;
+    padding: 0.938em;
+    cursor: pointer;
+}
+
+.what-i-do:hover{
+    letter-spacing: 0.25rem;
+}
+
+.what-i-do:focus{
+    border: none;
+    box-shadow: 0px 0px 30px black;
+    outline: 0px;
+}
+ /**********FIN Hola**********/
+
+/**********Conocimientos**********/
+#main2{
+    height: 46.875em;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+#section3 h1{
+    font-size: 1.25rem;    
+    -webkit-text-stroke: 0.063rem black;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+}
+
+.knowledge-grill{
+    width: 56.25em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.knowledge{
+    height: 10.938em;
+    width: 10.938em;
+    background-color: white;
+    border: 1px solid black;
+    border-radius:  10px;
+    box-shadow: 2px 2px 4px black;
+    display: flex;
+    flex-direction: column;
+    align-content:space-between;
+    margin: 0.625em;
+    padding: 1.875em;
+}
+
+.iknowledge{
+    font-size: 4.688rem;
+    margin: 1.25rem;
+}
+
+.knowledge:hover{
+    background: url(../images/galaxy.jfif);
+    color: white;
+    cursor: pointer;
+}
+
+.knowledge p{
+    text-transform: uppercase;
+    margin-top: 1.25em;
+}
+/**********FIN Conocimientos**********/
+
+/**********Frase**********/
+#main3{
+    height: 31.25em;
+    width: 100%;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#irocket {
+    color: black;
+    font-size: 5rem;
+}
+
+#section6{
+    letter-spacing: 0.125rem;
+    line-height: 1.563rem;
+    text-align: justify;
+}
+/**********FIN Frase**********/
+
+ /**********Proyectos**********/
+ #main4{
+    height: 62.5em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+#section7 h1{
+    font-size: 1.25rem;    
+    -webkit-text-stroke: 0.063rem black;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+}
+
+.projects-grill{
+    width: 48.75em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.link-projects{
+    height: 10.938em;
+    width: 10.938em;
+    background-color: white;
+    border: 1px solid black;
+    border-radius:  10px;
+    box-shadow: 2px 2px 4px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.625em;
+    padding: 1.875em;
+}
+
+.link-projects:hover{
+    background: url(../images/galaxy.jfif);
+    color: white;
+    cursor: pointer;
+}
+
+.projects p{
+    text-transform: uppercase;
+    margin-top: 1.25em;
+    text-align:center;
+}
+/**********FIN Proyectos**********/
+
+/**********Contacto**********/
+#main5{
+    height: 56.25em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#section9{
+    height: 31.25em;
+    width: 100%;
+    max-width: 60%;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 8px black;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    margin: 6.25em;
+    padding: 6.25em;
+}
+
+#contact-me{
+    width: 50%;
+    text-align: left;
+}
+
+#contact-me h1{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+}
+
+#contact-me a{
+    color: white;
+    letter-spacing: 0.125rem;
+    padding: 0.625em;
+    cursor: pointer;
+}
+
+#contact-me a:hover{
+    letter-spacing: 0.25rem;
+}
+
+#contact-me a:focus{
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px white;
+}
+
+#write-me{
+    width: 50%;
+    text-align: left;
+}
+
+.name-lastname{
+    display: flex;
+    flex-direction: row;
+}
+
+.formitem-name .formitem-lastname{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#write-me h1{
+    font-size: 1.25rem;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+}
+
+input{
+    height: 1.875em;
+    width: 25.5em;
+    border-radius: 20px;
+    border: none;
+    margin: 0.625em;
+}
+
+input[type="text"]{ 
+    width: 11em;
+}
+
+input:focus{
+    box-shadow: 0px 0px 10px white;
+    outline: 0;
+}
+
+input:required:valid:focus{
+    box-shadow: 0px 0px 10px rgb(1, 134, 1);
+}
+
+input:required:invalid:not(:placeholder-shown):focus{
+    box-shadow: 0px 0px 10px rgb(250, 2, 2);
+}
+
+::placeholder{
+    padding-left: 1em;
+}
+
+textarea{
+    height: 12.5em;
+    width: 25.5em;
+    max-height: 12.5em;
+    max-width: 25.5em;
+    border-radius: 20px;
+    border: none;
+    margin: 0.625em;
+}
+
+textarea:focus{
+    box-shadow: 0px 0px 10px white;
+    outline: 0;
+}
+
+form .send{
+    width: 100%;
+    max-width: 6.25em;
+    background-color: white;
+    color:black;
+    -webkit-text-stroke: 0.063rem black;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    padding: 0.625em;
+    cursor: pointer;
+}
+
+form .send:active{
+    background-color: grey;
+    border-radius: 20px;
+}
+
+form .send:hover{
+    background-color: white;
+    color: black;
+    letter-spacing: 0.25rem;
+    transition: 0,5s;
+}
+
+form .send:focus{
+    border: none;
+    box-shadow: 0px 0px 10px white;
+    outline: 0px;
+}
+
+/**********FIN Contacto**********/
+
+/**********Footer**********/
+footer{
+    height: 10.625em;
+    width: 100%;
+    box-shadow: 0px 0px 30px 0px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color:  black;
+}
+
+footer nav ul li{
+    display: inline;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    margin: 0.938em;
+}
+
+.footernav-link{
+    color: white;
+    -webkit-text-stroke: 0.063rem white;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    cursor: pointer;
+}
+
+.footernav-link:hover{
+    letter-spacing: 0.25rem;
+}
+
+.footernav-link:focus{
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px white;
+    outline: 0px;
+    padding: 0.625em;
+}
+
+#section12 ul li{
+    display: inline;
+    margin: 0.938em;
+}
+
+#ifooter{
+    color: white;
+    font-size: 1.25rem;
+}
+
+#ifooter:hover{
+    font-size: 1.375rem;
+}
+
+#section13{
+    color: white;
+}
+
+#section13 i{
+    font-size: 0.875rem;
+}
+
+/**********FIN Footer**********/
+
+/**********Media Queries***********/
+@media(max-width: 1024px){
+#header{
+    display:none;
+}
+
+#main1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 7.813em;
+}
+
+#section1{
+    text-align: center;
+}
+
+#section2{
+    margin-top: 3.125em;
+}
+
+input{
+    width: 20em;
+}
+
+input[type="text"]{ 
+    width: 9.375em;
+}
+
+textarea{
+    height: 12.5em;
+    width: 20em;
+    max-height: 12.5em;
+    max-width: 20em;
+}
+
+@media(max-width: 768px){
+#main2{
+    margin: 6.25em 1.25em;
+}
+
+.knowledge-grill{
+    width: 80%;
+}
+
+#main3{
+    height: 25em;
+}
+
+#main4{
+    margin: 6.25em 1.25em;
+}
+
+.projects-grill{
+    width: 80%;
+}
+
+#main5{
+    height: 73.125em;
+}
+
+#section9{
+    height: 47.5em;
+    display:flex;
+    flex-direction: column;
+}   
+
+#contact-me{
+    width: 100%;
+}
+
+#write-me{
+    margin-top: 3.125em;
+}
+}
+
+@media(max-width: 480px){
+hr{
+    width: 60%;
+}
+
+#main1{
+    padding: 8em 0em;
+}
+
+#main2{
+    height: 43.75em;
+}
+
+#section3 p{
+    margin: 0em 2.5em;
+}
+
+.knowledge{
+    height: 6em;
+    width: 6em;
+    display: flex;
+    justify-content: center;
+}
+
+.iknowledge{
+    font-size: 3.125em;
+}
+
+#main3{
+    height: 31.25em;
+}
+
+#main4{
+    height: 118.75em;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+
+.link-projects{
+    width: 18.75em;
+}
+
+#main5{
+    height: 78em;
+}
+
+#section9{
+    height: 55em;
+    padding: 5em;
+    display:flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.name-lastname{
+    display: block;
+}
+
+input, input[type="text"]{
+    width: 15.625em;
+}
+
+textarea{
+    height: 9.375em;
+    width: 15.625em;
+    max-height: 9.375em;
+    max-width: 15.625em;
+}
+
+footer{
+    height: 6.25em;
+}
+
+.footernav-link{
+    display: none;
+}}
+
+@media(max-width: 320px){
+#main1{
+    height: 25em;
+}
+
+#section2 img{
+    height: 10.625em;
+    margin-top: 3.125em;
+}
+
+#main2{
+    height: 81.25em;
+}
+
+#main3{
+    font-size: 80%;
+}
+
+#main2{
+    height: 100em;
+}
+
+.knowledge{
+    height: 10em;
+    width: 10em;
+    display: flex;
+    justify-content: center;
+}
+
+#irocket{
+    font-size: 3.125em;
+}
+
+.link-projects{
+    width: 9.375em;
+}
+
+#main5{
+    height: 82em;
+}
+
+#section9{
+    height: 58em;
+}
+
+input, input[type="text"]{
+    width: 12.5em;
+}
+
+textarea{
+    height: 6.25em;
+    width: 12.5em;
+    max-height: 6.25em;
+    max-width: 12.5em;
+}}}
+/**********FIN Media Queries***********/
